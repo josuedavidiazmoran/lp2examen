@@ -1,13 +1,13 @@
-package com.example.caso_biblioteca.serviceImpl;
+package com.example.lp2examen.serviceImpl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.caso_biblioteca.entity.Libro;
-import com.example.caso_biblioteca.repository.LibroRepository;
-import com.example.caso_biblioteca.service.LibroService;
+import com.example.lp2examen.entity.Libro;
+import com.example.lp2examen.repository.LibroRepository;
+import com.example.lp2examen.service.LibroService;
 
 @Service
 public class LibroServiceImpl implements LibroService{

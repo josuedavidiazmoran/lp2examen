@@ -1,4 +1,4 @@
-package com.example.caso_biblioteca.entity;
+package com.example.lp2examen.entity;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.example.caso_biblioteca.entity;
+package com.example.lp2examen.entity;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -27,21 +27,22 @@ import lombok.Setter;
 @Entity
 @Setter
 @Getter
-@Table(name = "autores")
-public class Autor implements Serializable{
+@Table(name = "editoriales")
+public class Editorial implements Serializable{
 
-	private static final long serialVersionUID = 7418479443987851042L;
+	private static final long serialVersionUID = 8739503533530437481L;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int idautor;
+	private int ideditorial;
 	
-	private String nombres;
-	private String apellidos;
+	private String editorial;
 	
 	//Relaciones
 	
 	
-	@OneToMany(cascade = CascadeType.MERGE, fetch = FetchType.LAZY, mappedBy = "autor")
+	@OneToMany(cascade = CascadeType.MERGE, fetch = FetchType.LAZY, mappedBy = "editorial")
 	@JsonIgnore
 	private List<Libro> libro = new ArrayList<>();
+	
 }

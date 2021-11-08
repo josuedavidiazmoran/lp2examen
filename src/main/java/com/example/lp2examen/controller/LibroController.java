@@ -1,4 +1,4 @@
-package com.example.caso_biblioteca.controller;
+package com.example.lp2examen.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.caso_biblioteca.entity.Libro;
-import com.example.caso_biblioteca.service.LibroService;
+import com.example.lp2examen.entity.Libro;
+import com.example.lp2examen.service.LibroService;
 
 @RestController
 @RequestMapping("/api/libro")

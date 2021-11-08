@@ -1,12 +1,12 @@
-package com.example.caso_biblioteca.serviceImpl;
+package com.example.lp2examen.serviceImpl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.caso_biblioteca.entity.Editorial;
-import com.example.caso_biblioteca.service.EditorialService;
+import com.example.lp2examen.entity.Editorial;
+import com.example.lp2examen.service.EditorialService;
 
 @Service
 public class EditorialServiceImpl implements EditorialService{

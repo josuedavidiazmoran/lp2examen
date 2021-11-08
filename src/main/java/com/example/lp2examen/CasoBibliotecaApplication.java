@@ -1,4 +1,4 @@
-package com.example.caso_biblioteca;
+package com.example.lp2examen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

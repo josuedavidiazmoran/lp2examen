@@ -1,8 +1,8 @@
-package com.example.caso_biblioteca.service;
+package com.example.lp2examen.service;
 
 import java.util.List;
 
-import com.example.caso_biblioteca.entity.Autor;
+import com.example.lp2examen.entity.Autor;
 
 public interface AutorService {
 
